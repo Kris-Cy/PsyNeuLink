@@ -1,6 +1,7 @@
 name: Test and publish PNL release
 
 on:
+  workflow-dispatch:
   push:
     tags:
       - 'v*'
